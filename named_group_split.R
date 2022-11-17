@@ -6,3 +6,5 @@ named_group_split <- function(.tbl, ...) {
     group_split() %>% 
     rlang::set_names(names)
 }
+
+devtools::source_url("https://raw.githubusercontent.com/srk7774/R4ds/main/named_group_split.R")
